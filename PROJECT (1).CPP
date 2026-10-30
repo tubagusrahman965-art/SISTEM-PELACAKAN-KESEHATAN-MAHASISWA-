@@ -13,3 +13,12 @@ float hitungRataRata(float data[]) {
 
     return total / 7;
 }
+float hitungTotalAir(float air[], int jumlah) {
+    float total = 0;
+
+    for (int i = 0; i < jumlah; i++) {
+        total += air[i];
+    }
+
+    return total;
+}
